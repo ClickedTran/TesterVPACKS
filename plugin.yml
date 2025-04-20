@@ -1,0 +1,15 @@
+name: AnimeQuotes
+version: 0.0.1
+api: 5.0.0
+src-namespace-prefix: DavyCraft648\AnimeQuotes
+main: DavyCraft648\AnimeQuotes\Main
+author: DavyCraft648
+description: Generate random anime quotes
+commands:
+  test:
+   permission: test.command
+permissions:
+  test.command:
+    default: true
+depend:
+  - VPacks
